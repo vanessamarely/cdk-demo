@@ -11,13 +11,19 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { MaterialModule } from './material/material.module';
 import { DragdropComponent } from './dragdrop/dragdrop.component';
 import { TableComponent } from './table/table.component';
+import { TreeComponent } from './tree/tree.component';
+import { PlatformComponent } from './platform/platform.component';
+import { VirtualScrollComponent } from './virtual-scroll/virtual-scroll.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StepperComponent,
     DragdropComponent,
-    TableComponent
+    TableComponent,
+    TreeComponent,
+    PlatformComponent,
+    VirtualScrollComponent
   ],
   imports: [
     BrowserModule,

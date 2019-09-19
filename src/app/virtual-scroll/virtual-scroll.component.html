@@ -1,0 +1,6 @@
+<div>
+    <h1>Virtual Scroll</h1>
+    <cdk-virtual-scroll-viewport itemSize="50" class="viewport">
+        <div *cdkVirtualFor="let item of items" class="item">{{item}}</div>
+    </cdk-virtual-scroll-viewport>
+</div>

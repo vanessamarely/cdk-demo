@@ -21,9 +21,8 @@ export class DragdropComponent implements OnInit {
     'Walk dog'
   ];
   
-  constructor() { }
-
   ngOnInit() {
+    
   }
 
   drop(event: CdkDragDrop<string[]>) {

@@ -6,12 +6,16 @@ import {MatStepperModule} from '@angular/material/stepper';
 import {DragDropModule} from '@angular/cdk/drag-drop';
 import {CdkTableModule} from '@angular/cdk/table';
 import {CdkTreeModule} from '@angular/cdk/tree';
+import {ObserversModule} from '@angular/cdk/observers';
+import {ScrollingModule} from '@angular/cdk/scrolling';
+
 import {
   MatButtonModule,
   MatFormFieldModule,
   MatInputModule,
   MatRippleModule,
-  MatTableModule
+  MatTableModule,
+  MatIconModule
 } from '@angular/material';
 @NgModule({
   exports: [
@@ -22,9 +26,12 @@ import {
     MatInputModule,
     MatRippleModule,
     MatTableModule,
+    MatIconModule,
     DragDropModule,
     CdkTableModule,
-    CdkTreeModule
+    CdkTreeModule,
+    ObserversModule,
+    ScrollingModule
   ],
   declarations: [],
   imports: [
